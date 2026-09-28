@@ -1,0 +1,6 @@
+{
+  "name": "Wafa AI",
+  "description": "Real AI Assistant by Mehedi364 with intelligent 10-key OpenRouter rotation, failover, Bangla/English/Arabic support, and persistent chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

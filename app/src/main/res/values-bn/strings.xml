@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">ওয়াফা এআই</string>
+    <string name="app_tagline">মেহেদী৩৬৪ এর এআই সহকারী</string>
+    <string name="developer_credit">মেহেদী৩৬৪ দ্বারা তৈরি</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">চ্যাট</string>
+    <string name="nav_conversations">ইতিহাস</string>
+    <string name="nav_explore">অনুসন্ধান</string>
+    <string name="nav_settings">সেটিংস</string>
+
+    <!-- Chat Screen -->
+    <string name="new_chat">নতুন চ্যাট</string>
+    <string name="type_message_hint">ওয়াফা এআই-কে যেকোনো প্রশ্ন করুন…</string>
+    <string name="stop_generating">থামুন</string>
+    <string name="generating_response">ওয়াফা এআই উত্তর তৈরি করছে…</string>
+    <string name="copy">কপি</string>
+    <string name="copied_to_clipboard">ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="share">শেয়ার</string>
+    <string name="regenerate">পুনরায় তৈরি</string>
+    <string name="retry">পুনরায় চেষ্টা</string>
+    <string name="delete">মুছুন</string>
+    <string name="edit">সম্পাদনা</string>
+    <string name="clear_chat">কথোপকথন মুছুন</string>
+    <string name="clear_chat_confirm">আপনি কি এই কথোপকথন মুছে ফেলতে চান?</string>
+    <string name="voice_input">ভয়েস ইনপুট</string>
+    <string name="attach_file">ফাইল যুক্ত করুন</string>
+    <string name="remove_attachment">সংযুক্তি সরান</string>
+
+    <!-- Empty States & Suggestions -->
+    <string name="welcome_headline">ওয়াফা এআই-তে স্বাগতম</string>
+    <string name="welcome_subheadline">ওপেনরাউটার মাল্টি-কি রোটেশন ও শক্তিশালী বুদ্ধিমত্তা সম্বলিত এআই সহকারী।</string>
+    <string name="suggestion_1">কোয়ান্টাম কম্পিউটিং সহজ বাংলায় বুঝিয়ে দিন</string>
+    <string name="suggestion_2">জেটপ্যাক কম্পোজ দিয়ে একটি সুন্দর কার্ড বানিয়ে দিন</string>
+    <string name="suggestion_3">একটি প্রাতিষ্ঠানিক ইমেইল খসড়া লিখে দিন</string>
+    <string name="suggestion_4">বাংলা ভাষার ব্যাকরণ ও অনুবাদে সহায়তা</string>
+
+    <!-- OpenRouter & Keys -->
+    <string name="openrouter_title">ওপেনরাউটার কনফিগারেশন</string>
+    <string name="api_key_usage_mode">এপিআই কি ব্যবহারের মোড</string>
+    <string name="mode_active_all">সকল কি সক্রিয় (Active All Keys)</string>
+    <string name="mode_active_all_desc">সংরক্ষিত সকল কি পর্যায়ক্রমে স্বয়ংক্রিয়ভাবে ব্যবহার ও ফেইলওভার করে</string>
+    <string name="mode_selected_keys">নির্বাচিত কি সমূহ (Selected Keys)</string>
+    <string name="mode_selected_keys_desc">শুধুমাত্র নিচের তালিকা থেকে বাছাইকৃত কি ব্যবহার করা হবে</string>
+    <string name="select_all">সব নির্বাচন</string>
+    <string name="clear_all">সব বাতিল</string>
+    <string name="test_connection">সংযোগ পরীক্ষা</string>
+    <string name="testing">পরীক্ষা চলছে…</string>
+    <string name="key_status_not_configured">যুক্ত নেই</string>
+    <string name="key_status_available">উপলব্ধ</string>
+    <string name="key_status_active">সক্রিয়</string>
+    <string name="key_status_cooldown">কুলডাউনে আছে</string>
+    <string name="key_status_rate_limited">সীমা অতিক্রম করেছে</string>
+    <string name="key_status_invalid">অবৈধ কি</string>
+    <string name="key_status_error">ত্রুটি</string>
+    <string name="save_key">সংরক্ষণ</string>
+    <string name="clear_key">মুছুন</string>
+    <string name="key_saved">এপিআই কি নিরাপদে সংরক্ষিত হয়েছে</string>
+    <string name="key_cleared">এপিআই কি সরানো হয়েছে</string>
+
+    <!-- Errors -->
+    <string name="error_no_keys">কোনো এপিআই কি সংরক্ষিত নেই। সেটিংসে গিয়ে ওপেনরাউটার কি যোগ করুন।</string>
+    <string name="error_no_selected_keys">অনুগ্রহ করে অন্তত একটি এপিআই কি নির্বাচন করুন।</string>
+    <string name="error_all_keys_unavailable">সবকটি এপিআই কি সাময়িকভাবে অনুপলব্ধ বা কুলডাউনে আছে।</string>
+    <string name="error_key_invalid">এপিআই কি-টি সঠিক নয় (HTTP 401)।</string>
+    <string name="error_rate_limit">রেট লিমিট অতিক্রম হয়েছে (HTTP 429)। পরবর্তী কি দিয়ে চেষ্টা করা হচ্ছে…</string>
+    <string name="error_network">ইন্টারনেট সংযোগ নেই। অনুগ্রহ করে নেটওয়ার্ক চেক করুন।</string>
+    <string name="error_provider">এআই প্রোভাইডার থেকে ত্রুটির বার্তা এসেছে।</string>
+    <string name="error_audio_permission">ভয়েস ইনপুটের জন্য মাইক্রোফোন অনুমতি প্রয়োজন।</string>
+
+    <!-- Settings Categories -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="section_ai_config">এআই ও ওপেনরাউটার কনফিগারেশন</string>
+    <string name="section_appearance">চেহারা ও থিম</string>
+    <string name="section_language">ভাষা (Language)</string>
+    <string name="section_chat_prefs">চ্যাট সেটিংস</string>
+    <string name="section_data_storage">ডাটা ও স্টোরেজ</string>
+    <string name="section_security_privacy">নিরাপত্তা ও গোপনীয়তা</string>
+    <string name="section_about">পরিচিতি</string>
+
+    <!-- Settings Items -->
+    <string name="model_selection">এআই মডেল</string>
+    <string name="model_default">google/gemini-2.0-flash-001</string>
+    <string name="system_prompt_label">সিস্টেম প্রম্পট</string>
+    <string name="temperature_label">তাপমাত্রা (Temperature)</string>
+    <string name="max_tokens_label">সর্বোচ্চ টোকেন (Max Tokens)</string>
+    <string name="streaming_label">রিয়েল-টাইম স্ট্রিমিং সক্রিয় রাখুন</string>
+    <string name="enter_is_send">এন্টার চাপলে মেসেজ পাঠান</string>
+    <string name="theme_system">সিস্টেম ডিফল্ট</string>
+    <string name="theme_light">হালকা (Light)</string>
+    <string name="theme_dark">গাঢ় (Dark)</string>
+    <string name="clear_all_history">সকল ইতিহাস মুছে ফেলুন</string>
+    <string name="export_data">কথোপকথন এক্সপোর্ট করুন (JSON)</string>
+    <string name="backend_url_label">ঐচ্ছিক পিএইচপি ব্যাকএন্ড ইউআরএল</string>
+    <string name="backend_url_hint">সরাসরি ওপেনরাউটারের জন্য খালি রাখুন অথবা লিখুন https://...</string>
+    <string name="reset_defaults">ডিফল্ট মানে ফিরুন</string>
+    <string name="cancel">বাতিল</string>
+    <string name="confirm">নিশ্চিত করুন</string>
+</resources>

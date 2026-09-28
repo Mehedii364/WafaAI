@@ -1,0 +1,23 @@
+# Wafa AI - Apache Configuration for InfinityFree / Custom Domain
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Enforce HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Security Headers
+    <IfModule mod_headers.c>
+        Header set X-Content-Type-Options "nosniff"
+        Header set X-Frame-Options "SAMEORIGIN"
+        Header set X-XSS-Protection "1; mode=block"
+        Header set Referrer-Policy "strict-origin-when-cross-origin"
+    </IfModule>
+
+    # Block access to hidden files and sensitive configs
+    RewriteRule (^|/)\.(?!well-known) - [F]
+    RewriteRule ^config\.php$ - [F]
+    RewriteRule \.sql$ - [F]
+</IfModule>

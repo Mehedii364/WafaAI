@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">وفاء AI</string>
+    <string name="app_tagline">المساعد الذكي بواسطة Mehedi364</string>
+    <string name="developer_credit">تم التطوير بواسطة Mehedi364</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">المحادثة</string>
+    <string name="nav_conversations">السجل</string>
+    <string name="nav_explore">استكشاف</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Chat Screen -->
+    <string name="new_chat">محادثة جديدة</string>
+    <string name="type_message_hint">اسأل وفاء AI أي شيء…</string>
+    <string name="stop_generating">إيقاف</string>
+    <string name="generating_response">وفاء AI يقوم بالتفكير…</string>
+    <string name="copy">نسخ</string>
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="share">مشاركة</string>
+    <string name="regenerate">إعادة المحاولة</string>
+    <string name="retry">إعادة الإرسال</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="clear_chat">مسح المحادثة</string>
+    <string name="clear_chat_confirm">هل أنت متأكد من مسح هذه المحادثة؟</string>
+    <string name="voice_input">الإدخال الصوتي</string>
+    <string name="attach_file">إرفاق ملف</string>
+    <string name="remove_attachment">إزالة المرفق</string>
+
+    <!-- Empty States & Suggestions -->
+    <string name="welcome_headline">مرحبًا بك في وفاء AI</string>
+    <string name="welcome_subheadline">مساعد ذكاء اصطناعي متعدد النماذج مدعوم بتدوير مفاتيح OpenRouter بذكاء.</string>
+    <string name="suggestion_1">اشرح الحوسبة الكمومية ببساطة</string>
+    <string name="suggestion_2">اكتب واجهة بطاقة أنيقة بـ Jetpack Compose</string>
+    <string name="suggestion_3">صياغة بريد إلكتروني رسمي للتعاون التجاري</string>
+    <string name="suggestion_4">مساعدة في الترجمة وقواعد اللغة</string>
+
+    <!-- OpenRouter & Keys -->
+    <string name="openrouter_title">إعدادات OpenRouter</string>
+    <string name="api_key_usage_mode">وضع استخدام مفاتيح API</string>
+    <string name="mode_active_all">تفعيل جميع المفاتيح (Active All Keys)</string>
+    <string name="mode_active_all_desc">يقوم بتدوير كافة المفاتيح المحفوظة تلقائيًا مع التبديل الذكي عند الخطأ</string>
+    <string name="mode_selected_keys">المفاتيح المحددة (Selected Keys)</string>
+    <string name="mode_selected_keys_desc">يستخدم فقط المفاتيح المحددة يدويًا من القائمة أدناه</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="clear_all">إلغاء التحديد</string>
+    <string name="test_connection">اختبار الاتصال</string>
+    <string name="testing">جارٍ الاختبار…</string>
+    <string name="key_status_not_configured">غير مهيأ</string>
+    <string name="key_status_available">متاح</string>
+    <string name="key_status_active">نشط</string>
+    <string name="key_status_cooldown">في فترة الراحة</string>
+    <string name="key_status_rate_limited">تم تجاوز المعدل</string>
+    <string name="key_status_invalid">مفتاح غير صالح</string>
+    <string name="key_status_error">خطأ</string>
+    <string name="save_key">حفظ</string>
+    <string name="clear_key">مسح</string>
+    <string name="key_saved">تم حفظ مفتاح API بأمان</string>
+    <string name="key_cleared">تمت إزالة المفتاح</string>
+
+    <!-- Errors -->
+    <string name="error_no_keys">لم يتم تكوين أي مفتاح API. يرجى إضافة مفتاح OpenRouter في الإعدادات.</string>
+    <string name="error_no_selected_keys">يرجى تحديد مفتاح API واحد على الأقل.</string>
+    <string name="error_all_keys_unavailable">جميع مفاتيح API غير متاحة حالياً أو في فترة راحة.</string>
+    <string name="error_key_invalid">مفتاح API غير صالح (HTTP 401).</string>
+    <string name="error_rate_limit">تم تجاوز حد الطلبات (HTTP 429). جارٍ التبديل للمفتاح التالي…</string>
+    <string name="error_network">لا يوجد اتصال بالإنترنت. يرجى التحقق من الشبكة.</string>
+    <string name="error_provider">أرجع مزود الذكاء الاصطناعي رسالة خطأ.</string>
+    <string name="error_audio_permission">يلزم إذن الميكروفون للإدخال الصوتي.</string>
+
+    <!-- Settings Categories -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="section_ai_config">إعدادات الذكاء الاصطناعي و OpenRouter</string>
+    <string name="section_appearance">المظهر</string>
+    <string name="section_language">اللغة (Language)</string>
+    <string name="section_chat_prefs">تفضيلات المحادثة</string>
+    <string name="section_data_storage">البيانات والتخزين</string>
+    <string name="section_security_privacy">الأمان والخصوصية</string>
+    <string name="section_about">حول التطبيق</string>
+
+    <!-- Settings Items -->
+    <string name="model_selection">نموذج الذكاء الاصطناعي</string>
+    <string name="model_default">google/gemini-2.0-flash-001</string>
+    <string name="system_prompt_label">التعليمات البرمجية للنظام (System Prompt)</string>
+    <string name="temperature_label">درجة الحرارة (Temperature)</string>
+    <string name="max_tokens_label">الحد الأقصى للرموز</string>
+    <string name="streaming_label">تفعيل البث المباشر للإجابة</string>
+    <string name="enter_is_send">الضغط على Enter للإرسال</string>
+    <string name="theme_system">تلقائي حسب النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="clear_all_history">مسح كافة المحادثات</string>
+    <string name="export_data">تصدير المحادثات (JSON)</string>
+    <string name="backend_url_label">عنوان PHP Backend اختياري</string>
+    <string name="backend_url_hint">اتركه فارغاً للاتصال المباشر بـ OpenRouter أو اكتب https://...</string>
+    <string name="reset_defaults">إعادة الضبط الافتراضي</string>
+    <string name="cancel">إلغاء</string>
+    <string name="confirm">تأكيد</string>
+</resources>

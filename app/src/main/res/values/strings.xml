@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Wafa AI</string>
+    <string name="app_tagline">AI Assistant by Mehedi364</string>
+    <string name="developer_credit">Developed by Mehedi364</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">Chat</string>
+    <string name="nav_conversations">History</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Chat Screen -->
+    <string name="new_chat">New Chat</string>
+    <string name="type_message_hint">Ask Wafa AI anything…</string>
+    <string name="stop_generating">Stop</string>
+    <string name="generating_response">Wafa AI is thinking…</string>
+    <string name="copy">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="share">Share</string>
+    <string name="regenerate">Regenerate</string>
+    <string name="retry">Retry</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="clear_chat">Clear Conversation</string>
+    <string name="clear_chat_confirm">Are you sure you want to clear this conversation?</string>
+    <string name="voice_input">Voice Input</string>
+    <string name="attach_file">Add Attachment</string>
+    <string name="remove_attachment">Remove Attachment</string>
+
+    <!-- Empty States & Suggestions -->
+    <string name="welcome_headline">Welcome to Wafa AI</string>
+    <string name="welcome_subheadline">Intelligent multi-model assistant powered by OpenRouter key rotation.</string>
+    <string name="suggestion_1">Explain Quantum Computing simply</string>
+    <string name="suggestion_2">Write a clean Kotlin Jetpack Compose card</string>
+    <string name="suggestion_3">Draft an email for business collaboration</string>
+    <string name="suggestion_4">Bangla grammar &amp; translation assistance</string>
+
+    <!-- OpenRouter & Keys -->
+    <string name="openrouter_title">OpenRouter Configuration</string>
+    <string name="api_key_usage_mode">API Key Usage Mode</string>
+    <string name="mode_active_all">Active All Keys</string>
+    <string name="mode_active_all_desc">Rotates through all configured keys automatically with intelligent failover</string>
+    <string name="mode_selected_keys">Selected Keys</string>
+    <string name="mode_selected_keys_desc">Only uses explicitly chosen configured keys from the list below</string>
+    <string name="select_all">Select All</string>
+    <string name="clear_all">Clear All</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="testing">Testing…</string>
+    <string name="key_status_not_configured">Not Configured</string>
+    <string name="key_status_available">Available</string>
+    <string name="key_status_active">Active</string>
+    <string name="key_status_cooldown">In Cooldown</string>
+    <string name="key_status_rate_limited">Rate Limited</string>
+    <string name="key_status_invalid">Invalid Key</string>
+    <string name="key_status_error">Error</string>
+    <string name="save_key">Save</string>
+    <string name="clear_key">Clear</string>
+    <string name="key_saved">API Key saved securely</string>
+    <string name="key_cleared">API Key removed</string>
+
+    <!-- Errors -->
+    <string name="error_no_keys">No API key is configured. Please add an OpenRouter key in Settings.</string>
+    <string name="error_no_selected_keys">Please select at least one API key.</string>
+    <string name="error_all_keys_unavailable">All configured API keys are temporarily unavailable or in cooldown.</string>
+    <string name="error_key_invalid">The API key appears to be invalid (HTTP 401).</string>
+    <string name="error_rate_limit">OpenRouter rate limit reached (HTTP 429). Failover to next key…</string>
+    <string name="error_network">Network connection unavailable. Check internet connectivity.</string>
+    <string name="error_provider">The AI provider returned an error.</string>
+    <string name="error_audio_permission">Microphone permission required for voice input.</string>
+
+    <!-- Settings Categories -->
+    <string name="settings_title">Settings</string>
+    <string name="section_ai_config">AI &amp; OpenRouter Configuration</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_language">Language</string>
+    <string name="section_chat_prefs">Chat Preferences</string>
+    <string name="section_data_storage">Data &amp; Storage</string>
+    <string name="section_security_privacy">Security &amp; Privacy</string>
+    <string name="section_about">About</string>
+
+    <!-- Settings Items -->
+    <string name="model_selection">AI Model</string>
+    <string name="model_default">google/gemini-2.0-flash-001</string>
+    <string name="system_prompt_label">System Prompt</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="max_tokens_label">Max Output Tokens</string>
+    <string name="streaming_label">Enable Real-Time Streaming</string>
+    <string name="enter_is_send">Press Enter to Send</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="clear_all_history">Clear All History</string>
+    <string name="export_data">Export Conversations (JSON)</string>
+    <string name="backend_url_label">Optional PHP Backend URL</string>
+    <string name="backend_url_hint">Leave empty for direct OpenRouter or enter https://...</string>
+    <string name="reset_defaults">Reset to Defaults</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+</resources>
